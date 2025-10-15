@@ -1,0 +1,60 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e1; /* beige */
+    color: #4b2e2e; /* marrón oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #f28c28; /* naranja */
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #f28c28;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9771b;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    header img {
+        width: 70px;
+    }
+    form {
+        width: 100%;
+    }
+}
